@@ -1,0 +1,21 @@
+###git clone https://github.com/omkar10exe/myS.git###
+
+#LED#
+sudo apt-get install python-rpi.gpioi python3-rpi.gpio
+
+
+#DHT Sensor
+sudo apt-get update
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+cd Adafruit_Python_DHT
+sudo python3 setup.py install
+
+
+
+#Cam
+sudo apt-get update
+sudo apt-get upgrade
+sudo raspi-config
+
+raspistill -o image1.jpg
+raspivid -o image1.h264
