@@ -1,7 +1,7 @@
 ###git clone https://github.com/omkar10exe/myS.git###
 
 #LED#
-sudo apt-get install python-rpi.gpioi python3-rpi.gpio
+sudo apt-get install python-rpi.gpio python3-rpi.gpio
 
 
 #DHT Sensor
